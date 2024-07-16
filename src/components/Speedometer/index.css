@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #07080c;
+  height: 100vh;
+  font-family: 'Roboto';
+}
+.image {
+  height: 50%;
+  width: 50%;
+}
+.head {
+  color: white;
+}
+.para {
+  color: white;
+  margin-bottom: 30px;
+}
+.para1 {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.button1 {
+  color: white;
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.button2 {
+  color: white;
+  background: transparent;
+  border: solid 1px white;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .image {
+    height: 200px;
+    width:200px;
+  }
+}
